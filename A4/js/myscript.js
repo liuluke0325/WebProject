@@ -63,8 +63,9 @@ function generateTable(inputarray, headerword, language) {
 
        //Create several column in one row
        var CreateOneRow = document.createElement("tr"); // a row in table
-
-       CreateOneRow.appendChild(getImgElement("./flags/"+inputarray[i].Code+".png", "",20,35)) ;// create flags
+       var flag = inputarray[i].Code+"";
+       flag=flag.toLowerCase();
+       CreateOneRow.appendChild(getImgElement("./flags/"+flag+".png", "",20,35)) ;// create flags
        CreateOneRow.appendChild(CreateColumnInRow(inputarray[i].Code));
        CreateOneRow.appendChild(CreateColumnInRow(inputarray[i].Name[language]));      
        CreateOneRow.appendChild(CreateColumnInRow(inputarray[i].Continent));
