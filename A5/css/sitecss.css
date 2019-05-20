@@ -1,0 +1,140 @@
+/********************************************************************
+I declare that my assignment is wholly my own work in accordance with Seneca
+Academic Policy. No part of this assignment has been copied manually or
+electronically from any other source (including web sites) except for the
+information supplied by the WEB222 instructors and / or made available in this
+assignment for my use.
+I also declare that no part of this assignment has been distributed to other
+students.
+Name: Hsueh Chih Liu
+Dated:3/26/2019
+********************************************************************/
+
+
+
+
+h2 { color: darkblue; background-color: #cccccc; font-family: 'Courier New', Courier, monospace   ;  }
+
+table, th, td {
+    border: 2px solid black;
+    margin: auto; 
+    width: auto;
+    text-align: center;
+    font-size:18px;
+
+  }
+
+  .container { width: 960px; margin: auto;  }
+
+
+  aside { width: 200px; float: left; }
+
+
+
+nav{
+  background: rgb(69, 195, 230);
+  background: -moz-linear-gradient(30deg, rgb(69, 195, 230) 30%, rgb(209, 140, 250) 70%);
+  background: -webkit-linear-gradient(30deg, rgb(69, 195, 230) 30%, rgb(209, 140, 250) 70%);
+  background: -o-linear-gradient(30deg, rgb(69, 195, 230) 30%, rgb(209, 140, 250) 70%);
+  background: -ms-linear-gradient(30deg, rgb(69, 195, 230) 30%, rgb(209, 140, 250) 70%);
+  background: linear-gradient(120deg, rgb(69, 195, 230) 30%, rgb(209, 140, 250) 70%);
+
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding-left:20px;
+    margin:0px;
+    }  
+
+    nav ul li {
+   display:inline-block;
+
+    }
+
+    nav ul li a{
+
+			color: #000;
+			text-decoration: underline;
+			font-weight:bold;
+			text-transform: uppercase;
+			font-size:15px;
+      display:block;
+      padding: 12px 50px;
+		}
+
+
+    
+
+section{
+float:left;
+width: 760px;
+margin:auto;
+overflow:auto; 
+
+}
+
+footer{
+    clear:both;
+    background: rgb(69, 195, 230);
+  background: -moz-linear-gradient(30deg, rgb(69, 195, 230) 30%, rgb(209, 140, 250) 70%);
+  background: -webkit-linear-gradient(30deg, rgb(69, 195, 230) 30%, rgb(209, 140, 250) 70%);
+  background: -o-linear-gradient(30deg, rgb(69, 195, 230) 30%, rgb(209, 140, 250) 70%);
+  background: -ms-linear-gradient(30deg, rgb(69, 195, 230) 30%, rgb(209, 140, 250) 70%);
+  background: linear-gradient(120deg, rgb(69, 195, 230) 30%, rgb(209, 140, 250) 70%);
+    color:white;
+    padding:10px;
+    text-align: center;
+}
+
+
+table td{
+  width : auto;
+  padding-top: 10px;
+  vertical-align: top;
+}
+
+table td h3{
+  color:red;
+font-style:italic;}
+  
+  body { margin: auto; width: 80%; }
+
+
+.tbpicture{
+
+    width: 250px;
+    height: 350px;
+}
+
+
+
+  #tabletitle{font-size: 20px;}
+
+
+
+
+  .button{
+
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    padding: 19px;
+    text-shadow: 0px -1px 0px rgba(255, 255, 255, 0.8);
+    -webkit-border-radius: 11.781788219105115px;
+    -moz-border-radius: 11.781788219105115px;
+    border-radius: 11.781788219105115px;
+    background: rgb(35, 240, 255);
+    background: -moz-linear-gradient(90deg, rgb(35, 240, 255) 30%, rgb(163, 255, 243) 70%);
+    background: -webkit-linear-gradient(90deg, rgb(35, 240, 255) 30%, rgb(163, 255, 243) 70%);
+    background: -o-linear-gradient(90deg, rgb(35, 240, 255) 30%, rgb(163, 255, 243) 70%);
+    background: -ms-linear-gradient(90deg, rgb(35, 240, 255) 30%, rgb(163, 255, 243) 70%);
+    background: linear-gradient(0deg, rgb(35, 240, 255) 30%, rgb(163, 255, 243) 70%);
+    -webkit-box-shadow: 0px 2px 1px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 2px 1px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 2px 1px rgba(50, 50, 50, 0.75);
+
+
+
+
+  }
