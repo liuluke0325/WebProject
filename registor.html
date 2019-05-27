@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+      <title>Hsueh Chih Liu - Website Project</title>
+    <meta charset="UTF-8" />
+	
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- it is common to place the .js files at the end of the <body> tag as well -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- ... -->
+  <script src="info.js"></script>
+  <link rel="stylesheet" href="css/normalize.css"/>
+  <link rel="stylesheet" href="css/lab3-theme.css"/>
+</head>
+<body>
+
+	<header>
+		<div class="center">
+			<h2>
+          Hsueh Chih Liu - Website Project
+			</h2>
+		</div>
+	</header>
+	<nav>
+      <div class="center">
+      <ul>	
+        <li><a href="index.html">Home</a></li>
+        <li><a href="storefront.html">Store Item List</a></li>
+        <li><a href="list.html">Country List</a></li>
+        <li><a href="audio.html">Audio</a></li>
+        <li><a href="video.html">Video</a></li>
+        <li><a href="registor.html">Regisitor</a></li>	
+      </ul>
+      </div>
+    </nav>
+	
+  
+    <div class="container">
+      <div class="row">
+          <div class="col-md-8">
+              <main class="main"> 
+        
+                  <h2>User info page:</h2>
+                  <form id="form" method ="post" action="https://httpbin.org/post" onsubmit='return formValidation(this);'>
+                      First Name: <br>
+                      <input type="text" id="Fname" name="Fname" required /><br>
+                      Last Name:<br>
+                      <input type="text" id="Lname" name="Lname" required /><br>
+                      Username: <br>
+                      <input  type="text" id="username" name="username" required/><br>
+                      Password:<br>
+                      <input  type="password" name="password" id="password" required  /><br>
+                      Re-Enter Password:<br>
+                      <input  type="password" name="password2" id="password2" required  /><br>
+                      Email:<br>
+                      <input  type="email" name="email" required="required"  /><br>
+                       Age:<br>
+                       <input  type="number" name="age" min="18" max="60" required /><br>
+                       Education Level: <br>
+                      <select name="Education-Level-list" id="select" >
+                          <option value = "0">select </option>
+                          <option value="1">Technical Diploma</option>
+                          <option value="2" >College Diploma</option>
+                          <option value="3">Bachelor's Degree</option>
+                          <option value="4">Master's Degree</option>
+                          <option value="5">Others</option>
+  
+                      </select><br>
+  
+                      Education Status:
+                      <ul>
+                          <li><input type="radio" name="educationStatus" value="Graduated" required>Graduated</li>
+                          <li><input type="radio" name="educationStatus" value="Currentenrolled">Current enrolled</li>
+                          <li><input type="radio" name="educationStatus" value="Didnotgraduate">Did not graduate</li>
+                      </ul>
+  
+                      <input type="hidden" name="lastName" id="lastName" value="Liu" />
+                      <input type="hidden" name="studentId" id="studentId" value="116131186" />
+  
+  
+                      <br>
+                      <input type="submit" value="Submit">
+                      <input type="reset" value="Clear">
+                      
+                  </form>
+                  <br>
+                  <br>
+  
+  
+  
+      </main>
+
+
+
+          </div>
+          <div class="col-md-4"> 
+             <section class="raside">
+
+              <h2>Message Center</h2><br>
+                <h4 id="displayerror">Please enter the Regisitor information</h4>
+        
+            </section>
+          </div>
+      </div>
+  </div>
+    
+    
+	<footer>
+	  <div class="center">
+		  &copy; 2019 Hsueh Chih Liu
+	  </div>
+	</footer>
+</body>
+</html>	  

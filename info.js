@@ -58,7 +58,7 @@ if( !validselect()){  // check password
 
 
 if(control){
-alert("Success!! Sending User Info...")
+alert("Success!! Sending User Info...\nMore functions will be built in the future.")
 
 }
 
