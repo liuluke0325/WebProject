@@ -3185,14 +3185,14 @@ var countries = [
     "Population": 23626456,
     "Capital": "Taipei",
     "Name": {
-      "English": "Taiwan - Province of China",
+      "English": "Taiwan",
       "Arabic": "تايوان، مقاطعة الصين ",
-      "Chinese": "中国台湾省 ",
-      "Franch": "Taiwan - province de Chine",
-      "Hindi": "ताइवान - चीन के प्रांत",
-      "Korean": "대만 - 중국",
-      "Japanese": "台湾、中国",
-      "Russian": "Тайвань - провинция Китая"
+      "Chinese": "台灣",
+      "Franch": "Taiwan",
+      "Hindi": "ताइवान",
+      "Korean": "대만",
+      "Japanese": "台湾",
+      "Russian": "Тайвань"
     }
   },
   {
